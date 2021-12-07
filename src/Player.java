@@ -3,5 +3,6 @@ public class Player {
     //Hit or stand
     //Play again or end game
     //bust condition.
+    //class hand will use extend and super keywords
 
 }

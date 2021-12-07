@@ -4,7 +4,7 @@ public class Cards {
     private static String[] ranks = {"Ace", "King", "Queen", "Jack", "Ten", "Nine", "Eight", "Seven", "Six", "Five", "Four", "Three", "Two"};
     private static String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
 
-    //Creates cards
+    //Creates cards (uses this keyword)
     Cards(int suit, int rank) {
         this.suit=suit;
         this.rank=rank;
