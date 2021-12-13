@@ -1,7 +1,7 @@
 package com.company;
 
 public class WinCondition {
-    public void playerSituation(int playerTotal){
+    /*public void playerSituation(int playerTotal){
         boolean bust = false;
         if (playerTotal > 21){
             System.out.println("Sorry to be the bearer of bad news, but you busted buster");
@@ -27,5 +27,5 @@ public class WinCondition {
             showBalance;
         }
 
-    }
+    }*/
 }
