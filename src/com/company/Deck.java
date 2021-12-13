@@ -26,7 +26,6 @@ public class Deck  {
         String mycard = card;
         //initial value
         int cardValue = 0;
-
         if(mycard == "Ace of Spades" || mycard == "Ace of Diamonds" || mycard == "Ace of Hearts" || mycard == "Ace of Clubs") cardValue = 1;
         else if(mycard == "Two of Spades" || mycard == "Two of Diamonds" || mycard == "Two of Hearts" || mycard == "Two of Clubs") cardValue = 2;
         else if(mycard == "Three of Spades" || mycard == "Three of Diamonds" || mycard == "Three of Hearts" || mycard == "Three of Clubs") cardValue = 3;
@@ -45,10 +44,6 @@ public class Deck  {
     }
 
     public String dealCard(){
-        return deck[random.nextInt(deck.length)];}
-
-
-
-
-
+        return deck[random.nextInt(deck.length)];
+    }
 }
